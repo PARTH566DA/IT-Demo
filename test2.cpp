@@ -5,7 +5,8 @@ int main(){
     int a;
     cin >> a;
 
-    cout << a/2;
-    cout << "Hello" << endl;
+    if(a%2 == 0) cout << "Number is even";
+    else cout << "Number is Odd";
+    
     return 0;
 }
